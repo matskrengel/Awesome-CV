@@ -11,7 +11,8 @@
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
-<<<<<<< HEAD
+*.synctex.gz
+__latexindent_temp.tex
 
 ### Editor ###
 ## Vim & Emacs temp files:
