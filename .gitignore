@@ -24,3 +24,5 @@ __latexindent_temp.tex
 ## Mac OS X metadata files:
 *.DS_Store
 
+## Sensitive information
+src/sensitive.tex

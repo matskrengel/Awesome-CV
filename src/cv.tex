@@ -54,16 +54,17 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 \photo[circle,edge,right]{./src/profile}
 \name{Mats}{Krengel}
-\position{Senior Backend Engineer}%{\enskip\cdotp\enskip}Security Expert}
-\address{Reichenberger Straße 156, 10999 Berlin}
+\position{Senior Backend Engineer}
+\address{Some Street, Some Town, 12345 Zipcode, Some Country}
 
-\mobile{(+49) 177 976 548 7}
+\mobile{(+00) 11 22 33 44 55}
 \email{mats.krengel@gmail.com}
-\homepage{www.matskrengel.de}
 \github{matskrengel}
 \linkedin{matskrengel}
-\xing{mats.krengel} % TODO: VERIFY
+\xing{Mats\_Krengel}
 
+
+% \homepage{www.matskrengel.de}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -74,6 +75,9 @@
 %% \firstname and \lastname will be used
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
+
+% Import sensitive information to overwrite i.e. \address and \mobile
+\IfFileExists{src/sensitive.tex}{\input{src/sensitive.tex}}{}
 
 % \quote{``Be the change that you want to see in the world."}
 
@@ -100,13 +104,9 @@
 \input{src/cv/summary.tex}
 \input{src/cv/skills.tex}
 \input{src/cv/experience.tex}
+\cvnewpage{}
 \input{src/cv/education.tex}
-% \input{cv/extracurricular.tex}
-% \input{cv/honors.tex}
 \input{src/cv/presentation.tex}
-% \input{cv/writing.tex}
-% \input{cv/committees.tex}
-
 
 %-------------------------------------------------------------------------------
 \end{document}

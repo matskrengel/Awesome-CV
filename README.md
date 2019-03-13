@@ -1,9 +1,9 @@
 ## TODO
 - Update Readme
-- Make sensitive data configurable in a file or by env variables
 - Finetune style
   - Map Location icon for address
-  - Add summary section template with bullet points
-- rename 'examples' folder so something more suitable
 - add german / english versions
 - add language parameter to makefile
+
+## Sensitive Information
+Address and mobile phone number are load from `src/sensitive.tex` and overwrite previous definitions in the `cv.tex` file.

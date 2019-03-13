@@ -576,6 +576,13 @@
   \phantomsection
 }
 
+% Define a manual newpage with some vertical spacing
+% Usage: \cvpagebreak{}
+\newcommand{\cvnewpage}{%
+  \newpage
+  \vspace*{-3mm}
+}
+
 % Define a paragraph for CV
 \newenvironment{cvparagraph}{%
   \vspace{\acvSectionContentTopSkip}
