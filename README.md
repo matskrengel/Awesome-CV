@@ -2,6 +2,10 @@
 This repo has been forked from posquit0/Awesome-CV and comes with some personal customizations and style changes. 
 
 ## Todo
+- Describe differences of forked repo
+  - sensitive info
+  - newpage command
+  - cventry subitems
 - Finetune style
   - Map Location icon for address
 - add german / english versions
