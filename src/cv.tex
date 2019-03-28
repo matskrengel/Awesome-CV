@@ -46,41 +46,12 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 \photo[circle,edge,right]{./src/profile}
-\name{Mats}{Krengel}
-\position{Senior Backend Engineer}
-\address{Some Street, Some Town, 12345 Zipcode, Some Country}
 
-\mobile{(+00) 11 22 33 44 55}
-\email{mats.krengel@gmail.com}
-\github{matskrengel}
-\linkedin{matskrengel}
-\xing{Mats\_Krengel}
-
-
-% \homepage{www.matskrengel.de}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
-
-% Import sensitive information to overwrite i.e. \address and \mobile
-\IfFileExists{src/sensitive.tex}{\input{src/sensitive.tex}}{}
+\IfFileExists{src/personal.tex}{\input{src/personal.tex}}{}
 
 % \quote{``Be the change that you want to see in the world."}
-
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -101,7 +72,7 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{src/cv/summary.tex}
+% \input{src/cv/summary.tex}
 \input{src/cv/skills.tex}
 \input{src/cv/experience.tex}
 \cvnewpage{}
