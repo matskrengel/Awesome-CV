@@ -83,8 +83,8 @@
 % Needed to deal hyperlink
 \RequirePackage[hidelinks,unicode]{hyperref}
 \hypersetup{%
-  pdftitle={},
-  pdfauthor={},
+  pdftitle={CV},
+  pdfauthor={Mats Krengel},
   pdfsubject={},
   pdfkeywords={}
 }
