@@ -6,8 +6,6 @@ This repo has been forked from posquit0/Awesome-CV and comes with some personal 
   - sensitive info
   - newpage command
   - cventry subitems
-- Finetune style
-  - Map Location icon for address
 - add german / english versions
 - add language parameter to makefile
 
