@@ -24,5 +24,7 @@ __latexindent_temp.tex
 ## Mac OS X metadata files:
 *.DS_Store
 
+.vscode
+
 ## Peronal / sensitive information
 src/personal.tex

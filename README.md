@@ -18,5 +18,6 @@ All personal information are loaded from `src/personal.tex`. This file is necess
 1. Install TeX Live via the `mactex` cask via `brew install mactex`.
 2. Make sure the `fontawesome` package is installed usually this is included by default in `mactex`.
 3. Append `/Library/TeX/texbin` to your `$PATH`.
-4. Create 'src/personal.tex' based on 'src/personal.template.tex'.
-5. Run `make`.
+4. Download FontAwesome font from https://fontawesome.com/v4.7.0/get-started/ and install the otf file to your local fonts.
+5. Create 'src/personal.tex' based on 'src/personal.template.tex'.
+6. Run `make`.
